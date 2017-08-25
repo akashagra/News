@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/toi"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Times Of India" />
+        <item
+            android:id="@+id/hindu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Hindu" />
+        <item
+            android:id="@+id/techcrunch"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TechCrunch" />
+        <item
+            android:id="@+id/businessinsider"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Business Insider" />
+        <item
+            android:id="@+id/espn"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Espn" />
+        <item
+            android:id="@+id/nationalgeographic"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="National Geographic" />
+        <item
+            android:id="@+id/googlenews"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Google News" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
